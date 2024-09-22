@@ -1,7 +1,3 @@
-Here's a well-structured `README.md` file for your project based on the provided code:
-
----
-
 # Anomaly Detection in Networks Using Machine Learning
 
 This project implements a machine learning pipeline to detect network anomalies (such as cyberattacks) in the **CICIDS2017 dataset**. Several machine learning algorithms are applied to classify network traffic as benign or malicious. The project focuses on feature selection, model evaluation, and performance comparison across different algorithms.
@@ -119,20 +115,3 @@ These metrics are printed to the console and saved in CSV files (`results_3.csv`
 ## Results
 Each machine learning algorithm is evaluated based on its performance metrics. The CSV files (`results_3.csv`, `results_Final.csv`) provide detailed metrics for each algorithm across multiple runs. Additionally, boxplots show the F1-score distribution for each algorithm.
 
-## Citations
-If you use this project or its code in your research, please cite the following thesis:
-
-```
-@MastersThesis{kostas2018,
-    author = {Kostas, Kahraman},
-    title = {{Anomaly Detection in Networks Using Machine Learning}},
-    institution = {Computer Science and Electronic Engineering - CSEE},
-    school = {University of Essex},
-    address= {Colchester, UK},
-    year={2018}
-}
-```
-
----
-
-This `README.md` provides an overview of the project, including setup instructions, feature selection, machine learning models used, and how to run the project. Let me know if you'd like to modify or add any details!
